@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Myriadcoin</source>
-        <translation>About Myriadcoin</translation>
+        <source>About AphoticCoin</source>
+        <translation>About AphoticCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Myriadcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Myriadcoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;AphoticCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;AphoticCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -36,8 +36,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Myriadcoin developers</source>
-        <translation>The Myriadcoin developers</translation>
+        <source>The AphoticCoin developers</source>
+        <translation>The AphoticCoin developers</translation>
     </message>
 </context>
 <context>
@@ -69,8 +69,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Myriadcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your Myriadcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your AphoticCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your AphoticCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -84,8 +84,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Myriadcoin address</source>
-        <translation>Sign a message to prove you own a Myriadcoin address</translation>
+        <source>Sign a message to prove you own a AphoticCoin address</source>
+        <translation>Sign a message to prove you own a AphoticCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -109,8 +109,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Myriadcoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified Myriadcoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified AphoticCoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified AphoticCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -124,8 +124,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Myriadcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Myriadcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your AphoticCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your AphoticCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -277,8 +277,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Myriadcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your myriadcoins from being stolen by malware infecting your computer.</source>
-        <translation>Myriadcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your myriadcoins from being stolen by malware infecting your computer.</translation>
+        <source>AphoticCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aphoticcoins from being stolen by malware infecting your computer.</source>
+        <translation>AphoticCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aphoticcoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Show information about Myriadcoin</source>
-        <translation>Show information about Myriadcoin</translation>
+        <source>Show information about AphoticCoin</source>
+        <translation>Show information about AphoticCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -421,13 +421,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-341"/>
-        <source>Send coins to a Myriadcoin address</source>
-        <translation>Send coins to a Myriadcoin address</translation>
+        <source>Send coins to a AphoticCoin address</source>
+        <translation>Send coins to a AphoticCoin address</translation>
     </message>
     <message>
         <location line="+52"/>
-        <source>Modify configuration options for Myriadcoin</source>
-        <translation>Modify configuration options for Myriadcoin</translation>
+        <source>Modify configuration options for AphoticCoin</source>
+        <translation>Modify configuration options for AphoticCoin</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -458,8 +458,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-183"/>
         <location line="+6"/>
         <location line="+530"/>
-        <source>Myriadcoin</source>
-        <translation>Myriadcoin</translation>
+        <source>AphoticCoin</source>
+        <translation>AphoticCoin</translation>
     </message>
     <message>
         <location line="-536"/>
@@ -485,8 +485,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+23"/>
         <location line="+2"/>
-        <source>&amp;About Myriadcoin</source>
-        <translation>&amp;About Myriadcoin</translation>
+        <source>&amp;About AphoticCoin</source>
+        <translation>&amp;About AphoticCoin</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -506,13 +506,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Myriadcoin addresses to prove you own them</source>
-        <translation>Sign messages with your Myriadcoin addresses to prove you own them</translation>
+        <source>Sign messages with your AphoticCoin addresses to prove you own them</source>
+        <translation>Sign messages with your AphoticCoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Myriadcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Myriadcoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified AphoticCoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified AphoticCoin addresses</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -543,15 +543,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-5"/>
         <location line="+5"/>
-        <source>Myriadcoin client</source>
-        <translation>Myriadcoin client</translation>
+        <source>AphoticCoin client</source>
+        <translation>AphoticCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+143"/>
-        <source>%n active connection(s) to Myriadcoin network</source>
+        <source>%n active connection(s) to AphoticCoin network</source>
         <translation>
-            <numerusform>%n active connection to Myriadcoin network</numerusform>
-            <numerusform>%n active connections to Myriadcoin network</numerusform>
+            <numerusform>%n active connection to AphoticCoin network</numerusform>
+            <numerusform>%n active connections to AphoticCoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -675,8 +675,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Myriadcoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid Myriadcoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AphoticCoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid AphoticCoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -690,8 +690,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Myriadcoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Myriadcoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. AphoticCoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. AphoticCoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -756,8 +756,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Myriadcoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Myriadcoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AphoticCoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid AphoticCoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -775,8 +775,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+493"/>
         <location line="+12"/>
-        <source>Myriadcoin-Qt</source>
-        <translation>Myriadcoin-Qt</translation>
+        <source>AphoticCoin-Qt</source>
+        <translation>AphoticCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -838,13 +838,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Myriadcoin after logging in to the system.</source>
-        <translation>Automatically start Myriadcoin after logging in to the system.</translation>
+        <source>Automatically start AphoticCoin after logging in to the system.</source>
+        <translation>Automatically start AphoticCoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Myriadcoin on system login</source>
-        <translation>&amp;Start Myriadcoin on system login</translation>
+        <source>&amp;Start AphoticCoin on system login</source>
+        <translation>&amp;Start AphoticCoin on system login</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -863,8 +863,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Myriadcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Myriadcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the AphoticCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the AphoticCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -873,8 +873,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Myriadcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the Myriadcoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the AphoticCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the AphoticCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -948,8 +948,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Myriadcoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Myriadcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AphoticCoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting AphoticCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -963,8 +963,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Myriadcoin addresses in the transaction list or not.</source>
-        <translation>Whether to show Myriadcoin addresses in the transaction list or not.</translation>
+        <source>Whether to show AphoticCoin addresses in the transaction list or not.</source>
+        <translation>Whether to show AphoticCoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1015,8 +1015,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Myriadcoin.</source>
-        <translation>This setting will take effect after restarting Myriadcoin.</translation>
+        <source>This setting will take effect after restarting AphoticCoin.</source>
+        <translation>This setting will take effect after restarting AphoticCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1034,8 +1034,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+202"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Myriadcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Myriadcoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AphoticCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the AphoticCoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-131"/>
@@ -1098,8 +1098,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+109"/>
-        <source>Cannot start myriadcoin: click-to-pay handler</source>
-        <translation>Cannot start myriadcoin: click-to-pay handler</translation>
+        <source>Cannot start aphoticcoin: click-to-pay handler</source>
+        <translation>Cannot start aphoticcoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1248,8 +1248,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Myriadcoin-Qt help message to get a list with possible Myriadcoin command-line options.</source>
-        <translation>Show the Myriadcoin-Qt help message to get a list with possible Myriadcoin command-line options.</translation>
+        <source>Show the AphoticCoin-Qt help message to get a list with possible AphoticCoin command-line options.</source>
+        <translation>Show the AphoticCoin-Qt help message to get a list with possible AphoticCoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1268,13 +1268,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Myriadcoin - Debug window</source>
-        <translation>Myriadcoin - Debug window</translation>
+        <source>AphoticCoin - Debug window</source>
+        <translation>AphoticCoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Myriadcoin Core</source>
-        <translation>Myriadcoin Core</translation>
+        <source>AphoticCoin Core</source>
+        <translation>AphoticCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1283,8 +1283,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Myriadcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Myriadcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the AphoticCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the AphoticCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1293,8 +1293,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Myriadcoin RPC console.</source>
-        <translation>Welcome to the Myriadcoin RPC console.</translation>
+        <source>Welcome to the AphoticCoin RPC console.</source>
+        <translation>Welcome to the AphoticCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1478,8 +1478,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Myriadcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enter a Myriadcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1543,8 +1543,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Myriadcoin address</source>
-        <translation>Sign the message to prove you own this Myriadcoin address</translation>
+        <source>Sign the message to prove you own this AphoticCoin address</source>
+        <translation>Sign the message to prove you own this AphoticCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1579,8 +1579,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Myriadcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Myriadcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified AphoticCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified AphoticCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1595,8 +1595,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Myriadcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enter a Myriadcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1605,8 +1605,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Myriadcoin signature</source>
-        <translation>Enter Myriadcoin signature</translation>
+        <source>Enter AphoticCoin signature</source>
+        <translation>Enter AphoticCoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1679,8 +1679,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The Myriadcoin developers</source>
-        <translation>The Myriadcoin developers</translation>
+        <source>The AphoticCoin developers</source>
+        <translation>The AphoticCoin developers</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2232,8 +2232,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+98"/>
-        <source>Myriadcoin version</source>
-        <translation>Myriadcoin version</translation>
+        <source>AphoticCoin version</source>
+        <translation>AphoticCoin version</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -2242,8 +2242,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or myriadcoind</source>
-        <translation>Send command to -server or myriadcoind</translation>
+        <source>Send command to -server or aphoticcoind</source>
+        <translation>Send command to -server or aphoticcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2262,13 +2262,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: myriadcoin.conf)</source>
-        <translation>Specify configuration file (default: myriadcoin.conf)</translation>
+        <source>Specify configuration file (default: aphoticcoin.conf)</source>
+        <translation>Specify configuration file (default: aphoticcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: myriadcoind.pid)</source>
-        <translation>Specify pid file (default: myriadcoind.pid)</translation>
+        <source>Specify pid file (default: aphoticcoind.pid)</source>
+        <translation>Specify pid file (default: aphoticcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2345,24 +2345,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=myriadcoinrpc
+rpcuser=aphoticcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Myriadcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=myriadcoinrpc
+rpcuser=aphoticcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Myriadcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2377,8 +2377,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Myriadcoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Myriadcoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Myriadcoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. AphoticCoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. AphoticCoin is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2427,8 +2427,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Myriadcoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Myriadcoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Myriadcoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AphoticCoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AphoticCoin will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2872,13 +2872,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Myriadcoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Myriadcoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Myriadcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AphoticCoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of AphoticCoin</translation>
     </message>
     <message>
         <location line="+94"/>
-        <source>Wallet needed to be rewritten: restart Myriadcoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart Myriadcoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart AphoticCoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart AphoticCoin to complete</translation>
     </message>
     <message>
         <location line="-96"/>
@@ -2937,8 +2937,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Myriadcoin Alert&quot; admin@f
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Myriadcoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Myriadcoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. AphoticCoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. AphoticCoin is probably already running.</translation>
     </message>
     <message>
         <location line="+64"/>
