@@ -4338,15 +4338,6 @@ CBlockTemplate* CreateNewBlock(CReserveKey& reservekey, int algo)
         case ALGO_SCRYPT:
             pblock->nVersion |= BLOCK_VERSION_SCRYPT;
             break;
-        case ALGO_GROESTL:
-            pblock->nVersion |= BLOCK_VERSION_GROESTL;
-            break;
-        case ALGO_SKEIN:
-            pblock->nVersion |= BLOCK_VERSION_SKEIN;
-            break;
-        case ALGO_QUBIT:
-            pblock->nVersion |= BLOCK_VERSION_QUBIT;
-            break;
         default:
             error("CreateNewBlock: bad algo");
             return NULL;
@@ -5095,15 +5086,6 @@ void static ThreadBitcoinMiner(CWallet *pwallet)
                 break;
             case ALGO_SCRYPT:
                 ScryptMiner(pwallet);
-                break;
-            case ALGO_GROESTL:
-                GenericMiner(pwallet, ALGO_GROESTL);
-                break;
-            case ALGO_SKEIN:
-                GenericMiner(pwallet, ALGO_SKEIN);
-                break;
-            case ALGO_QUBIT:
-                GenericMiner(pwallet, ALGO_QUBIT);
                 break;
         }
     }
