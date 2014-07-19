@@ -16,18 +16,18 @@
 
 unsigned int pnSeed[] =
 {
-    0x12345678
+    
 };
 
 class CMainParams : public CChainParams {
 public:
     CMainParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0xaf;
-        pchMessageStart[1] = 0x45;
-        pchMessageStart[2] = 0x76;
-        pchMessageStart[3] = 0xee;
-        vAlertPubKey = ParseHex("04a82e43bebee0af77bb6d4f830c5b2095b7479a480e91bbbf3547fb261c5e6d1be2c27e3c57503f501480f5027371ec62b2be1b6f00fc746e4b3777259e7f6a78");
+        pchMessageStart[0] = 0xcd;
+        pchMessageStart[1] = 0x08;
+        pchMessageStart[2] = 0xac;
+        pchMessageStart[3] = 0xff;
+        vAlertPubKey = ParseHex("04d6e392b1027d00e1725209237296b390aba0723d40415a85fa65b8039ce46acb167e518b74053749db15998c5c8f28534fea06776c82693815e7078c5bee5ac5");
         nDefaultPort = 10888;
         nRPCPort = 10889;
         bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 20);
@@ -46,14 +46,14 @@ public:
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 1000 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04e941763c7750969e751bee1ffbe96a651a0feb131db046546c219ea40bff40b95077dc9ba1c05af991588772d8daabbda57386c068fb9bc7477c5e28702d5eb9") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("040f0afa74e6b8f2f5f93f59838cb745759cdb21db27e37f07b20a3f709a8cccbf0a85973fbb70220a0d96c9c503d4ed1db5daa93c8ae031e27b27a5e5497dafb5") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = BLOCK_VERSION_DEFAULT;
         genesis.nTime    = 1393164995;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 2092903596;
+        genesis.nNonce   = 0;
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
@@ -67,13 +67,10 @@ public:
         //printf("%x\n", bnProofOfWorkLimit[ALGO_SHA256D].GetCompact());
         //genesis.print();
         
-        assert(hashGenesisBlock == uint256("0x00000ffde4c020b5938441a0ea3d314bf619eff0b38f32f78f7583cffa1ea485"));
-        assert(genesis.hashMerkleRoot == uint256("0x3f75db3c18e92f46c21530dc1222e1fddf4ccebbf88e289a6c9dc787fd6469da"));
+        assert(hashGenesisBlock == uint256("0x0"));
+        assert(genesis.hashMerkleRoot == uint256("0x0"));
 
-        vSeeds.push_back(CDNSSeedData("seed1.myriadcoin.org", "seed1.myriadcoin.org"));
-        vSeeds.push_back(CDNSSeedData("seed2.myriadcoin.org", "seed2.myriadcoin.org"));
-        vSeeds.push_back(CDNSSeedData("seed3.myriadcoin.org", "seed3.myriadcoin.org"));
-        vSeeds.push_back(CDNSSeedData("seed4.myriadcoin.org", "seed4.myriadcoin.org"));
+        vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 50;
         base58Prefixes[SCRIPT_ADDRESS] = 9;
@@ -114,18 +111,18 @@ class CTestNetParams : public CMainParams {
 public:
     CTestNetParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0x01;
-        pchMessageStart[1] = 0xf5;
-        pchMessageStart[2] = 0x55;
-        pchMessageStart[3] = 0xa4;
-        vAlertPubKey = ParseHex("044adf046e6bc86fb83ef92f261fa3feff9176bd029c5ad4afb5c52ac21f9851f2b2eb861cdbf2c09e0cb97dbf75c6ca5ff6c5df88cfb244c72dba1d44b5a47655");
+        pchMessageStart[0] = 0x08;
+        pchMessageStart[1] = 0xb2;
+        pchMessageStart[2] = 0x99;
+        pchMessageStart[3] = 0x88;
+        vAlertPubKey = ParseHex("040a178fce95b88b6e46601d1b1490d8569e20380416ba6fed3f38f3068f6908c25da1d2f41478d2323709dc3b2480148d40d8907752bb1ce15d9fda23bf295728");
         nDefaultPort = 20888;
         nRPCPort = 20889;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1392876393;
-        genesis.nNonce = 416875379;
+        genesis.nNonce = 0;
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
@@ -138,11 +135,11 @@ public:
         //printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         //genesis.print();
         
-        assert(hashGenesisBlock == uint256("0x0000017ce2a79c8bddafbbe47c004aa92b20678c354b34085f62b762084b9788"));
+        assert(hashGenesisBlock == uint256("0x0"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("testseed1.myriadcoin.org", "testseed1.myriadcoin.org"));
+        vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 88;
         base58Prefixes[SCRIPT_ADDRESS] = 188;
@@ -160,10 +157,10 @@ static CTestNetParams testNetParams;
 class CRegTestParams : public CTestNetParams {
 public:
     CRegTestParams() {
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0x0f;
-        pchMessageStart[2] = 0xa5;
-        pchMessageStart[3] = 0x5a;
+        pchMessageStart[0] = 0xf0;
+        pchMessageStart[1] = 0xa1;
+        pchMessageStart[2] = 0x88;
+        pchMessageStart[3] = 0xcd;
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 1);
         bnProofOfWorkLimit[ALGO_SCRYPT]  = CBigNum(~uint256(0) >> 1);
@@ -188,7 +185,7 @@ public:
         //printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         //genesis.print();
 
-        assert(hashGenesisBlock == uint256("0x63b92987ddc93808aa33dddc80b3e52948bdfffaf2420bf4cd9c5137b54ea37c"));
+        assert(hashGenesisBlock == uint256("0x0"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
 
