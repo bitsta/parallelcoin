@@ -28,8 +28,8 @@ public:
         pchMessageStart[2] = 0xac;
         pchMessageStart[3] = 0xff;
         vAlertPubKey = ParseHex("04d6e392b1027d00e1725209237296b390aba0723d40415a85fa65b8039ce46acb167e518b74053749db15998c5c8f28534fea06776c82693815e7078c5bee5ac5");
-        nDefaultPort = 10888;
-        nRPCPort = 10889;
+        nDefaultPort = 11047;
+        nRPCPort = 11048;
         bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 20);
         bnProofOfWorkLimit[ALGO_SCRYPT]  = CBigNum(~uint256(0) >> 20);
         bnProofOfWorkLimit[ALGO_GROESTL] = CBigNum(~uint256(0) >> 20);
@@ -116,8 +116,8 @@ public:
         pchMessageStart[2] = 0x99;
         pchMessageStart[3] = 0x88;
         vAlertPubKey = ParseHex("040a178fce95b88b6e46601d1b1490d8569e20380416ba6fed3f38f3068f6908c25da1d2f41478d2323709dc3b2480148d40d8907752bb1ce15d9fda23bf295728");
-        nDefaultPort = 20888;
-        nRPCPort = 20889;
+        nDefaultPort = 21047;
+        nRPCPort = 21048;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
@@ -171,7 +171,7 @@ public:
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 4;
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 18444;
+        nDefaultPort = 31047;
         strDataDir = "regtest";
         
         //// debug print
