@@ -27,7 +27,7 @@ public:
         pchMessageStart[1] = 0x45;
         pchMessageStart[2] = 0x76;
         pchMessageStart[3] = 0xee;
-        vAlertPubKey = ParseHex("04a82e43bebee0af77bb6d4f830c5b2095b7479a480e91bbbf3547fb261c5e6d1be2c27e3c57503f501480f5027371ec62b2be1b6f00fc746e4b3777259e7f6a78");
+        vAlertPubKey = ParseHex("04d6e392b1027d00e1725209237296b390aba0723d40415a85fa65b8039ce46acb167e518b74053749db15998c5c8f28534fea06776c82693815e7078c5bee5ac5");
         nDefaultPort = 10888;
         nRPCPort = 10889;
         bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 20);
@@ -46,7 +46,7 @@ public:
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 1000 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04e941763c7750969e751bee1ffbe96a651a0feb131db046546c219ea40bff40b95077dc9ba1c05af991588772d8daabbda57386c068fb9bc7477c5e28702d5eb9") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("040f0afa74e6b8f2f5f93f59838cb745759cdb21db27e37f07b20a3f709a8cccbf0a85973fbb70220a0d96c9c503d4ed1db5daa93c8ae031e27b27a5e5497dafb5") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
