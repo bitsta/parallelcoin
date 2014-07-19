@@ -216,22 +216,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/limitedmap.h \
     src/qt/splashscreen.h \
     src/qt/intro.h \
-    src/scrypt.h \
-    src/sph_blake.h \
-    src/sph_groestl.h \
-    src/sph_keccak.h \
-    src/sph_bmw.h \
-    src/sph_jh.h \
-    src/sph_skein.h \
-    src/sph_types.h \
-    src/sph_echo.h \
-    src/sph_luffa.h \
-    src/sph_simd.h \
-    src/sph_cubehash.h \
-    src/sph_shavite.h \
-    src/hashgroestl.h \
-    src/hashskein.h \
-    src/hashqubit.h
+    src/scrypt.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -304,19 +289,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/splashscreen.cpp \
     src/qt/intro.cpp \
     src/scrypt.cpp \
-    src/scrypt-sse2.cpp \
-    src/blake.c \
-    src/bmw.c \
-    src/groestl.c \
-    src/jh.c \
-    src/keccak.c \
-    src/skein.c \
-    src/aes_helper.c \
-    src/echo.c \
-    src/luffa.c \
-    src/simd.c \
-    src/cubehash.c \
-    src/shavite.c
+    src/scrypt-sse2.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
 
