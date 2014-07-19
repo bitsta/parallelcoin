@@ -16,7 +16,7 @@
 
 unsigned int pnSeed[] =
 {
-    0x12345678
+    
 };
 
 class CMainParams : public CChainParams {
