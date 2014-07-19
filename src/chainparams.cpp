@@ -69,7 +69,7 @@ public:
 
         vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = 50;
+        base58Prefixes[PUBKEY_ADDRESS] = 83;
         base58Prefixes[SCRIPT_ADDRESS] = 9;
         base58Prefixes[SECRET_KEY] = 178;
 
@@ -138,7 +138,7 @@ public:
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = 88;
+        base58Prefixes[PUBKEY_ADDRESS] = 18;
         base58Prefixes[SCRIPT_ADDRESS] = 188;
         base58Prefixes[SECRET_KEY] = 239;
 
