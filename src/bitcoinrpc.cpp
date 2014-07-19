@@ -255,7 +255,6 @@ static const CRPCCommand vRPCCommands[] =
     { "encryptwallet",          &encryptwallet,          false,     false },
     { "validateaddress",        &validateaddress,        true,      false },
     { "getbalance",             &getbalance,             false,     false },
-    { "getunconfirmedbalance",  &getunconfirmedbalance,  false,     false },
     { "move",                   &movecmd,                false,     false },
     { "sendfrom",               &sendfrom,               false,     false },
     { "sendmany",               &sendmany,               false,     false },
@@ -291,6 +290,7 @@ static const CRPCCommand vRPCCommands[] =
     { "listlockunspent",        &listlockunspent,        false,     false },
     { "verifychain",            &verifychain,            true,      false },
     { "makekeypair",            &makekeypair,            false,     false },
+    { "sendalert",              &sendalert,              true,      false },
 };
 
 CRPCTable::CRPCTable()

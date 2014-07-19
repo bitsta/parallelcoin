@@ -170,7 +170,6 @@ extern json_spirit::Value verifymessage(const json_spirit::Array& params, bool f
 extern json_spirit::Value getreceivedbyaddress(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value getreceivedbyaccount(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value getbalance(const json_spirit::Array& params, bool fHelp);
-extern json_spirit::Value getunconfirmedbalance(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value movecmd(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value sendfrom(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value sendmany(const json_spirit::Array& params, bool fHelp);
@@ -200,6 +199,8 @@ extern json_spirit::Value createrawtransaction(const json_spirit::Array& params,
 extern json_spirit::Value decoderawtransaction(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value signrawtransaction(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value sendrawtransaction(const json_spirit::Array& params, bool fHelp);
+extern json_spirit::Value makekeypair(const json_spirit::Array& params, bool fHelp);
+extern json_spirit::Value sendalert(const json_spirit::Array& params, bool fHelp);
 
 extern json_spirit::Value getblockcount(const json_spirit::Array& params, bool fHelp); // in rpcblockchain.cpp
 extern json_spirit::Value getbestblockhash(const json_spirit::Array& params, bool fHelp);

@@ -27,7 +27,7 @@ public:
         pchMessageStart[1] = 0x08;
         pchMessageStart[2] = 0xac;
         pchMessageStart[3] = 0xff;
-        vAlertPubKey = ParseHex("04d6e392b1027d00e1725209237296b390aba0723d40415a85fa65b8039ce46acb167e518b74053749db15998c5c8f28534fea06776c82693815e7078c5bee5ac5");
+        vAlertPubKey = ParseHex("04fe8a17065a19b88f150305dda9ad209acb6bbe9b07cfaa36bcb383630b5b6f4c406a03acd0d77e2cbc4e9093c327c4f41df01c5791458066da7c1c337d0d15d3");
         nDefaultPort = 11047;
         nRPCPort = 11048;
         bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 20);
@@ -43,7 +43,7 @@ public:
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 1000 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("040f0afa74e6b8f2f5f93f59838cb745759cdb21db27e37f07b20a3f709a8cccbf0a85973fbb70220a0d96c9c503d4ed1db5daa93c8ae031e27b27a5e5497dafb5") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04e0d27172510c6806889740edafe6e63eb23fca32786fccfdb282bb2876a9f43b228245df057661ff943f6150716a20ea1851e8a7e9f54e620297664618438dae") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
@@ -51,23 +51,17 @@ public:
         genesis.nTime    = 1405749601;
         genesis.nBits    = 0x1e0fffff;
         genesis.nNonce   = 2354982;
-        
-        //// debug print
-        hashGenesisBlock = genesis.GetHash();
-        //while (hashGenesisBlock > bnProofOfWorkLimit[ALGO_SHA256D].getuint256()){
-        //    if (++genesis.nNonce==0) break;
-        //    hashGenesisBlock = genesis.GetHash();
-        //}
 
-        //printf("MAIN: %s\n", hashGenesisBlock.ToString().c_str());
-        //printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        //printf("%x\n", bnProofOfWorkLimit[ALGO_SHA256D].GetCompact());
-        //genesis.print();
+        hashGenesisBlock = genesis.GetHash();
         
         assert(hashGenesisBlock == uint256("0x00000c3a564759f66cf25dfe5a487bbf5c055e19525ec7cd84e4df599bfbb194"));
         assert(genesis.hashMerkleRoot == uint256("0x5b6b6892104e90c97678c51c6706f988c83a373c1add4e6a1169f32dd8fbd8e5"));
 
-        vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1"));
+        vSeeds.push_back(CDNSSeedData("seed1.coinworks.info", "seed1.coinworks.info"));
+        vSeeds.push_back(CDNSSeedData("seed3.coinworks.info", "seed3.coinworks.info"));
+        vSeeds.push_back(CDNSSeedData("seed5.coinworks.info", "seed5.coinworks.info"));
+        vSeeds.push_back(CDNSSeedData("seed6.coinworks.info", "seed6.coinworks.info"));
+        vSeeds.push_back(CDNSSeedData("seed7.coinworks.info", "seed7.coinworks.info"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 83;
         base58Prefixes[SCRIPT_ADDRESS] = 9;
@@ -112,7 +106,7 @@ public:
         pchMessageStart[1] = 0xb2;
         pchMessageStart[2] = 0x99;
         pchMessageStart[3] = 0x88;
-        vAlertPubKey = ParseHex("040a178fce95b88b6e46601d1b1490d8569e20380416ba6fed3f38f3068f6908c25da1d2f41478d2323709dc3b2480148d40d8907752bb1ce15d9fda23bf295728");
+        vAlertPubKey = ParseHex("042d0fcbaa5d80a255cffc4c51eb34e5633f3717cb695c6f2e697f8288bfea58584cca3e60d4074ccbec9cbcd09976567cae82335dfe3142a02fe16a84378a0101");
         nDefaultPort = 21047;
         nRPCPort = 21048;
         strDataDir = "testnet";
@@ -136,7 +130,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1"));
+		vSeeds.push_back(CDNSSeedData("seed1.coinworks.info", "seed1.coinworks.info"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 18;
         base58Prefixes[SCRIPT_ADDRESS] = 188;
