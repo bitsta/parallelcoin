@@ -18,9 +18,6 @@
 enum { 
     ALGO_SHA256D = 0, 
     ALGO_SCRYPT  = 1, 
-    ALGO_GROESTL = 2,
-    ALGO_SKEIN   = 3,
-    ALGO_QUBIT   = 4,
     NUM_ALGOS };
 
 enum
@@ -31,9 +28,6 @@ enum
     // algo
     BLOCK_VERSION_ALGO           = (7 << 9),
     BLOCK_VERSION_SCRYPT         = (1 << 9),
-    BLOCK_VERSION_GROESTL        = (2 << 9),
-    BLOCK_VERSION_SKEIN          = (3 << 9),
-    BLOCK_VERSION_QUBIT          = (4 << 9),
 };
 
 inline int GetAlgo(int nVersion)
@@ -44,12 +38,6 @@ inline int GetAlgo(int nVersion)
             return ALGO_SHA256D;
         case BLOCK_VERSION_SCRYPT:
             return ALGO_SCRYPT;
-        case BLOCK_VERSION_GROESTL:
-            return ALGO_GROESTL;
-        case BLOCK_VERSION_SKEIN:
-            return ALGO_SKEIN;
-        case BLOCK_VERSION_QUBIT:
-            return ALGO_QUBIT;
     }
     return ALGO_SHA256D;
 }
@@ -62,12 +50,6 @@ inline std::string GetAlgoName(int Algo)
             return std::string("sha256d");
         case ALGO_SCRYPT:
             return std::string("scrypt");
-        case ALGO_GROESTL:
-            return std::string("groestl");
-        case ALGO_SKEIN:
-            return std::string("skein");
-        case ALGO_QUBIT:
-            return std::string("qubit");
     }
     return std::string("unknown");       
 }
@@ -664,12 +646,6 @@ public:
                 scrypt_1024_1_1_256(BEGIN(nVersion), BEGIN(thash));
                 return thash;
             }
-            case ALGO_GROESTL:
-                return HashGroestl(BEGIN(nVersion), END(nNonce));
-            case ALGO_SKEIN:
-                return HashSkein(BEGIN(nVersion), END(nNonce));
-            case ALGO_QUBIT:
-                return HashQubit(BEGIN(nVersion), END(nNonce));
         }
         return GetHash();
     }
