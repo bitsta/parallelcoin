@@ -17,7 +17,7 @@ script:
 notifications:
   irc:
     channels:
-      - "chat.freenode.net#myriadteam"
+      - "chat.freenode.net#CoinWorks"
     template:
       - "%{repository}/%{branch} (%{commit} - %{author}): %{message}, Build Time: %{duration}"
       - "Change view : %{compare_url}"
