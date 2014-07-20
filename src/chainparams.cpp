@@ -118,7 +118,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-		vSeeds.push_back(CDNSSeedData("seed1.coinworks.info", "seed1.coinworks.info"));
+		vSeeds.push_back(CDNSSeedData("seed2.parallelcoin.info", "seed2.parallelcoin.info"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 18;
         base58Prefixes[SCRIPT_ADDRESS] = 188;
