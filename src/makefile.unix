@@ -146,7 +146,6 @@ OBJS= \
     obj/txdb.o \
     obj/chainparams.o \
     obj/scrypt.o \
-    obj/scrypt-sse2.o
 
 all: parallelcoind
 
