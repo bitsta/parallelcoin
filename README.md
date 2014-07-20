@@ -1,4 +1,4 @@
-![ScreenShot](https://travis-ci.org/CoinDistillery/myriadcoin.svg?branch=master)
+![ScreenShot](https://travis-ci.org/CoinDistillery/parallelcoin.svg?branch=master)
 
 Parallelcoin integration/staging tree
 ====================================
