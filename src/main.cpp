@@ -1285,15 +1285,15 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 150; // 2.5 minutes (NUM_ALGOS * 30 seconds)
-static const int64 nTargetSpacing = 150; // 2.5 minutes (NUM_ALGOS * 30 seconds)
-static const int64 nInterval = 1; // retargets every blocks
+static const int64 nTargetTimespan = 30000; 
+static const int64 nTargetSpacing = 300; 
+static const int64 nInterval = 100; 
 
 static const int64 nAveragingInterval = 10; // 10 blocks
 static const int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 25 minutes
 
-static const int64 nMaxAdjustDown = 4; // 4% adjustment down
-static const int64 nMaxAdjustUp = 2; // 2% adjustment up
+static const int64 nMaxAdjustDown = 10; // 4% adjustment down
+static const int64 nMaxAdjustUp = 20; // 2% adjustment up
 
 static const int64 nTargetTimespanAdjDown = nTargetTimespan * (100 + nMaxAdjustDown) / 100;
 
