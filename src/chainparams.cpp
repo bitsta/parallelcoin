@@ -115,16 +115,7 @@ public:
         genesis.nTime = 1405750002;
         genesis.nNonce = 1062634;
         
-        //// debug print
         hashGenesisBlock = genesis.GetHash();
-        //while (hashGenesisBlock > bnProofOfWorkLimit[ALGO_SHA256D].getuint256()){
-        //    if (++genesis.nNonce==0) break;
-        //   hashGenesisBlock = genesis.GetHash();
-        //}
-
-        //printf("TEST: %s\n", hashGenesisBlock.ToString().c_str());
-        //printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        //genesis.print();
         
         assert(hashGenesisBlock == uint256("0x00000c05280ebeb2351fbf26d0c245d36fe80e8bd6349e80ce6c54663ed4630e"));
 
@@ -162,16 +153,7 @@ public:
         nDefaultPort = 31047;
         strDataDir = "regtest";
         
-        //// debug print
         hashGenesisBlock = genesis.GetHash();
-        //while (hashGenesisBlock > bnProofOfWorkLimit[ALGO_SHA256D].getuint256()){
-        //    if (++genesis.nNonce==0) break;
-        //    hashGenesisBlock = genesis.GetHash();
-        //}
-
-        //printf("REG: %s\n", hashGenesisBlock.ToString().c_str());
-        //printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        //genesis.print();
 
         assert(hashGenesisBlock == uint256("0x4d3009dd1971071eb35d70334d3d47b8a1cb3c04e1ae90d5a3037e24494428d6"));
 
