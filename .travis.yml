@@ -20,6 +20,6 @@ notifications:
     channels:
       - "chat.freenode.net#CoinWorks"
     template:
-      - "%{repository}/%{branch} (%{commit} - %{author}): %{message}, Build Time: %{duration}"
+      - "%{repository_slug} - (%{commit} - %{author}): %{message}, Build Time: %{duration}"
       - "Change view : %{compare_url}"
       - "Build details : %{build_url}"
