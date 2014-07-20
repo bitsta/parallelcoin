@@ -1,4 +1,4 @@
-https://travis-ci.org/CoinDistillery/myriadcoin.svg?branch=master
+![ScreenShot](https://travis-ci.org/CoinDistillery/myriadcoin.svg?branch=master)
 
 AphoticCoin integration/staging tree
 ====================================
