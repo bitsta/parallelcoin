@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = parallelcoin-qt
-macx:TARGET = "ParallelCoin-Qt"
+macx:TARGET = "Parallelcoin-Qt"
 VERSION = 0.8.2
 INCLUDEPATH += src src/json src/qt
 QT += core gui network

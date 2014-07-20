@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ParallelCoin</source>
-        <translation>Om ParallelCoin</translation>
+        <source>About Parallelcoin</source>
+        <translation>Om Parallelcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ParallelCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ParallelCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Parallelcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Parallelcoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The ParallelCoin developers</source>
-        <translation>ParallelCoin-udviklerne</translation>
+        <source>The Parallelcoin developers</source>
+        <translation>Parallelcoin-udviklerne</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your ParallelCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine ParallelCoin-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
+        <source>These are your Parallelcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine Parallelcoin-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a ParallelCoin address</source>
-        <translation>Underskriv en besked for at bevise, at en ParallelCoin-adresse tilhører dig</translation>
+        <source>Sign a message to prove you own a Parallelcoin address</source>
+        <translation>Underskriv en besked for at bevise, at en Parallelcoin-adresse tilhører dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified ParallelCoin address</source>
-        <translation>Efterprøv en besked for at sikre, at den er underskrevet med den angivne ParallelCoin-adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified Parallelcoin address</source>
+        <translation>Efterprøv en besked for at sikre, at den er underskrevet med den angivne Parallelcoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your ParallelCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine ParallelCoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender parallelcoins.</translation>
+        <source>These are your Parallelcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine Parallelcoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender parallelcoins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-56"/>
-        <source>ParallelCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your parallelcoins from being stolen by malware infecting your computer.</source>
-        <translation>ParallelCoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine parallelcoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
+        <source>Parallelcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your parallelcoins from being stolen by malware infecting your computer.</source>
+        <translation>Parallelcoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine parallelcoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ParallelCoin</source>
-        <translation>Vis informationer om ParallelCoin</translation>
+        <source>Show information about Parallelcoin</source>
+        <translation>Vis informationer om Parallelcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a ParallelCoin address</source>
-        <translation>Send parallelcoins til en ParallelCoin-adresse</translation>
+        <source>Send coins to a Parallelcoin address</source>
+        <translation>Send parallelcoins til en Parallelcoin-adresse</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for ParallelCoin</source>
-        <translation>Rediger konfigurationsindstillinger af ParallelCoin</translation>
+        <source>Modify configuration options for Parallelcoin</source>
+        <translation>Rediger konfigurationsindstillinger af Parallelcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>ParallelCoin</source>
-        <translation>ParallelCoin</translation>
+        <source>Parallelcoin</source>
+        <translation>Parallelcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About ParallelCoin</source>
-        <translation>Om ParallelCoin</translation>
+        <source>&amp;About Parallelcoin</source>
+        <translation>Om Parallelcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your ParallelCoin addresses to prove you own them</source>
-        <translation>Underskriv beskeder med dine ParallelCoin-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your Parallelcoin addresses to prove you own them</source>
+        <translation>Underskriv beskeder med dine Parallelcoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified ParallelCoin addresses</source>
-        <translation>Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne ParallelCoin-adresse(r)</translation>
+        <source>Verify messages to ensure they were signed with specified Parallelcoin addresses</source>
+        <translation>Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne Parallelcoin-adresse(r)</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+47"/>
-        <source>ParallelCoin client</source>
-        <translation>ParallelCoin-klient</translation>
+        <source>Parallelcoin client</source>
+        <translation>Parallelcoin-klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to ParallelCoin network</source>
-        <translation><numerusform>%n aktiv(e) forbindelse(r) til ParallelCoin-netværket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til ParallelCoin-netværket</numerusform></translation>
+        <source>%n active connection(s) to Parallelcoin network</source>
+        <translation><numerusform>%n aktiv(e) forbindelse(r) til Parallelcoin-netværket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til Parallelcoin-netværket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresse: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid ParallelCoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig ParallelCoin-adresse eller misdannede URI-parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Parallelcoin address or malformed URI parameters.</source>
+        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig Parallelcoin-adresse eller misdannede URI-parametre.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. ParallelCoin can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. ParallelCoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <source>A fatal error occurred. Parallelcoin can no longer continue safely and will quit.</source>
+        <translation>Der opstod en fatal fejl. Parallelcoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ParallelCoin address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig ParallelCoin-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Parallelcoin address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig Parallelcoin-adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresse: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>ParallelCoin-Qt</source>
-        <translation>ParallelCoin-Qt</translation>
+        <source>Parallelcoin-Qt</source>
+        <translation>Parallelcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ParallelCoin after logging in to the system.</source>
-        <translation>Start ParallelCoin automatisk, når der logges ind på systemet</translation>
+        <source>Automatically start Parallelcoin after logging in to the system.</source>
+        <translation>Start Parallelcoin automatisk, når der logges ind på systemet</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ParallelCoin on system login</source>
-        <translation>Start ParallelCoin, når systemet startes</translation>
+        <source>&amp;Start Parallelcoin on system login</source>
+        <translation>Start Parallelcoin, når systemet startes</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ParallelCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn ParallelCoin-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
+        <source>Automatically open the Parallelcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn Parallelcoin-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ParallelCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Opret forbindelse til ParallelCoin-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
+        <source>Connect to the Parallelcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Opret forbindelse til Parallelcoin-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ParallelCoin.</source>
-        <translation>Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når ParallelCoin genstartes.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Parallelcoin.</source>
+        <translation>Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når Parallelcoin genstartes.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show ParallelCoin addresses in the transaction list or not.</source>
-        <translation>Afgør hvorvidt ParallelCoin-adresser skal vises i transaktionslisten eller ej.</translation>
+        <source>Whether to show Parallelcoin addresses in the transaction list or not.</source>
+        <translation>Afgør hvorvidt Parallelcoin-adresser skal vises i transaktionslisten eller ej.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresse: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ParallelCoin.</source>
-        <translation>Denne indstilling træder i kraft, efter ParallelCoin genstartes.</translation>
+        <source>This setting will take effect after restarting Parallelcoin.</source>
+        <translation>Denne indstilling træder i kraft, efter Parallelcoin genstartes.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresse: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ParallelCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med ParallelCoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Parallelcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Parallelcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1219,8 +1219,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ParallelCoin-Qt help message to get a list with possible ParallelCoin command-line options.</source>
-        <translation>Vis ParallelCoin-Qt-hjælpebeskeden for at få en liste over de tilgængelige ParallelCoin-kommandolinjeindstillinger.</translation>
+        <source>Show the Parallelcoin-Qt help message to get a list with possible Parallelcoin command-line options.</source>
+        <translation>Vis Parallelcoin-Qt-hjælpebeskeden for at få en liste over de tilgængelige Parallelcoin-kommandolinjeindstillinger.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresse: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>ParallelCoin - Debug window</source>
-        <translation>ParallelCoin - Fejlsøgningsvindue</translation>
+        <source>Parallelcoin - Debug window</source>
+        <translation>Parallelcoin - Fejlsøgningsvindue</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ParallelCoin Core</source>
-        <translation>ParallelCoin Core</translation>
+        <source>Parallelcoin Core</source>
+        <translation>Parallelcoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ParallelCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn ParallelCoin-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
+        <source>Open the Parallelcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Parallelcoin-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the ParallelCoin RPC console.</source>
-        <translation>Velkommen til ParallelCoin RPC-konsollen</translation>
+        <source>Welcome to the Parallelcoin RPC console.</source>
+        <translation>Velkommen til Parallelcoin RPC-konsollen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1408,7 +1408,7 @@ Adresse: %4
     <message>
         <location line="+34"/>
         <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>ParallelCoin-adressen som betalingen skal sendes til (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Parallelcoin-adressen som betalingen skal sendes til (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Indtast en ParallelCoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Parallelcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Indtast en Parallelcoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1467,12 +1467,12 @@ Adresse: %4
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan underskrive beskeder med dine ParallelCoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
+        <translation>Du kan underskrive beskeder med dine Parallelcoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>ParallelCoin-adressen som beskeden skal underskrives med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Parallelcoin-adressen som beskeden skal underskrives med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,8 +1513,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ParallelCoin address</source>
-        <translation>Underskriv denne besked for at bevise, at ParallelCoin-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this Parallelcoin address</source>
+        <translation>Underskriv denne besked for at bevise, at Parallelcoin-adressen tilhører dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1545,12 +1545,12 @@ Adresse: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>ParallelCoin-adressen som beskeden er underskrevet med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Parallelcoin-adressen som beskeden er underskrevet med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ParallelCoin address</source>
-        <translation>Efterprøv beskeden for at sikre, at den er underskrevet med den angivne ParallelCoin-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified Parallelcoin address</source>
+        <translation>Efterprøv beskeden for at sikre, at den er underskrevet med den angivne Parallelcoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresse: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Indtast en ParallelCoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Parallelcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Indtast en Parallelcoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ParallelCoin signature</source>
-        <translation>Indtast ParallelCoin-underskriften</translation>
+        <source>Enter Parallelcoin signature</source>
+        <translation>Indtast Parallelcoin-underskriften</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresse: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The ParallelCoin developers</source>
-        <translation>ParallelCoin-udviklerne</translation>
+        <source>The Parallelcoin developers</source>
+        <translation>Parallelcoin-udviklerne</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresse: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>ParallelCoin version</source>
-        <translation>ParallelCoin-version</translation>
+        <source>Parallelcoin version</source>
+        <translation>Parallelcoin-version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2306,7 +2306,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Parallelcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, du skal angive en RPC-adgangskode i konfigurationsfilen:
 %s
@@ -2317,7 +2317,7 @@ rpcpassword=%s
 Brugernavnet og adgangskode MÅ IKKE være det samme.
 Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettighed.
 Det anbefales også at angive alertnotify, så du påmindes om problemer;
-f.eks.: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.com
+f.eks.: alertnotify=echo %%s | mail -s &quot;Parallelcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. ParallelCoin is probably already running.</source>
-        <translation>Kan ikke opnå lås på datakatalog %s. ParallelCoin er sandsynligvis allerede startet.</translation>
+        <source>Cannot obtain a lock on data directory %s. Parallelcoin is probably already running.</source>
+        <translation>Kan ikke opnå lås på datakatalog %s. Parallelcoin er sandsynligvis allerede startet.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ParallelCoin will not work properly.</source>
-        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil ParallelCoin ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Parallelcoin will not work properly.</source>
+        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil Parallelcoin ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2817,13 +2817,13 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ParallelCoin</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af ParallelCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Parallelcoin</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Parallelcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart ParallelCoin to complete</source>
-        <translation>Det var nødvendigt at genskrive tegnebogen: genstart ParallelCoin for at gennemføre</translation>
+        <source>Wallet needed to be rewritten: restart Parallelcoin to complete</source>
+        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Parallelcoin for at gennemføre</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. ParallelCoin is probably already running.</source>
-        <translation>Kunne ikke tildele %s på denne computer. ParallelCoin kører sikkert allerede.</translation>
+        <source>Unable to bind to %s on this computer. Parallelcoin is probably already running.</source>
+        <translation>Kunne ikke tildele %s på denne computer. Parallelcoin kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="+64"/>

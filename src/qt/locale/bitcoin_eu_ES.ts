@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ParallelCoin</source>
-        <translation>ParallelCoin-i buruz</translation>
+        <source>About Parallelcoin</source>
+        <translation>Parallelcoin-i buruz</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ParallelCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ParallelCoin&lt;/b&gt; bertsioa</translation>
+        <source>&lt;b&gt;Parallelcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Parallelcoin&lt;/b&gt; bertsioa</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The ParallelCoin developers</source>
+        <source>The Parallelcoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,7 +62,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your ParallelCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Parallelcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a ParallelCoin address</source>
+        <source>Sign a message to prove you own a Parallelcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified ParallelCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Parallelcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your ParallelCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Parallelcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,7 +270,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>ParallelCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your parallelcoins from being stolen by malware infecting your computer.</source>
+        <source>Parallelcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your parallelcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ParallelCoin</source>
-        <translation>Erakutsi ParallelCoin-i buruzko informazioa</translation>
+        <source>Show information about Parallelcoin</source>
+        <translation>Erakutsi Parallelcoin-i buruzko informazioa</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -380,7 +380,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Erakutsi ParallelCoin-i buruzko informazioa</translation>
+        <translation>Erakutsi Parallelcoin-i buruzko informazioa</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,12 +414,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a ParallelCoin address</source>
+        <source>Send coins to a Parallelcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for ParallelCoin</source>
+        <source>Modify configuration options for Parallelcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>ParallelCoin</source>
+        <source>Parallelcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -475,7 +475,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About ParallelCoin</source>
+        <source>&amp;About Parallelcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your ParallelCoin addresses to prove you own them</source>
+        <source>Sign messages with your Parallelcoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified ParallelCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Parallelcoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>ParallelCoin client</source>
+        <source>Parallelcoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to ParallelCoin network</source>
-        <translation><numerusform>Konexio aktibo %n ParallelCoin-en sarera</numerusform><numerusform>%n konexio aktibo ParallelCoin-en sarera</numerusform></translation>
+        <source>%n active connection(s) to Parallelcoin network</source>
+        <translation><numerusform>Konexio aktibo %n Parallelcoin-en sarera</numerusform><numerusform>%n konexio aktibo Parallelcoin-en sarera</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,7 +647,7 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid ParallelCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Parallelcoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -662,7 +662,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. ParallelCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Parallelcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -728,7 +728,7 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ParallelCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Parallelcoin address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -747,7 +747,7 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>ParallelCoin-Qt</source>
+        <source>Parallelcoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -810,12 +810,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ParallelCoin after logging in to the system.</source>
+        <source>Automatically start Parallelcoin after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ParallelCoin on system login</source>
+        <source>&amp;Start Parallelcoin on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -835,7 +835,7 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ParallelCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Parallelcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -845,7 +845,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ParallelCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Parallelcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -920,7 +920,7 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ParallelCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Parallelcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -935,7 +935,7 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show ParallelCoin addresses in the transaction list or not.</source>
+        <source>Whether to show Parallelcoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -987,7 +987,7 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ParallelCoin.</source>
+        <source>This setting will take effect after restarting Parallelcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1006,7 +1006,7 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ParallelCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Parallelcoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1210,7 +1210,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ParallelCoin-Qt help message to get a list with possible ParallelCoin command-line options.</source>
+        <source>Show the Parallelcoin-Qt help message to get a list with possible Parallelcoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1230,12 +1230,12 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>ParallelCoin - Debug window</source>
+        <source>Parallelcoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>ParallelCoin Core</source>
+        <source>Parallelcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1245,7 +1245,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ParallelCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Parallelcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1255,7 +1255,7 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the ParallelCoin RPC console.</source>
+        <source>Welcome to the Parallelcoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1439,7 +1439,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Parallelcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Sartu Bitocin helbide bat (adb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L) </translation>
     </message>
 </context>
@@ -1504,7 +1504,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ParallelCoin address</source>
+        <source>Sign the message to prove you own this Parallelcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1540,7 +1540,7 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ParallelCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Parallelcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1556,7 +1556,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Parallelcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Sartu Bitocin helbide bat (adb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L) </translation>
     </message>
     <message>
@@ -1566,7 +1566,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ParallelCoin signature</source>
+        <source>Enter Parallelcoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The ParallelCoin developers</source>
+        <source>The Parallelcoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2178,7 +2178,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>ParallelCoin version</source>
+        <source>Parallelcoin version</source>
         <translation>Botcoin bertsioa</translation>
     </message>
     <message>
@@ -2297,7 +2297,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Parallelcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2313,7 +2313,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. ParallelCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Parallelcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2358,7 +2358,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ParallelCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Parallelcoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2608,7 +2608,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the ParallelCoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Parallelcoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2798,12 +2798,12 @@ for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ParallelCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Parallelcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart ParallelCoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Parallelcoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2863,7 +2863,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. ParallelCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Parallelcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

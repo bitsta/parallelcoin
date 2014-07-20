@@ -33,9 +33,6 @@ public:
         bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 20);
         bnProofOfWorkLimit[ALGO_SCRYPT]  = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 250000;
-
-        // Build the genesis block. Note that the output of the genesis coinbase cannot
-        // be spent as it did not originally exist in the database.
   
         const char* pszTimestamp = "NYTimes 2014-07-19 - Dell Begins Accepting Bitcoin";
         CTransaction txNew;
@@ -48,14 +45,14 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = BLOCK_VERSION_DEFAULT;
-        genesis.nTime    = 1405749601;
+        genesis.nTime    = 1405742300;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 2354982;
+        genesis.nNonce   = 66177;
 
-        hashGenesisBlock = genesis.GetHash();
+		hashGenesisBlock = genesis.GetHash();
         
-        assert(hashGenesisBlock == uint256("0x00000c3a564759f66cf25dfe5a487bbf5c055e19525ec7cd84e4df599bfbb194"));
-        assert(genesis.hashMerkleRoot == uint256("0x5b6b6892104e90c97678c51c6706f988c83a373c1add4e6a1169f32dd8fbd8e5"));
+        assert(hashGenesisBlock == uint256("0x000009f0fcbad3aac904d3660cfdcf238bf298cfe73adf1d39d14fc5c740ccc7"));
+        assert(genesis.hashMerkleRoot == uint256("0xc843eae4658e3a51d2f280c36376ce56dc71a6c70e4b1c5ad2d7a9316f9b9ab7"));
 
         vSeeds.push_back(CDNSSeedData("seed1.coinworks.info", "seed1.coinworks.info"));
         vSeeds.push_back(CDNSSeedData("seed3.coinworks.info", "seed3.coinworks.info"));
@@ -112,12 +109,12 @@ public:
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1405750002;
-        genesis.nNonce = 1062634;
+        genesis.nTime = 1405741700;
+        genesis.nNonce = 1761048;
         
-        hashGenesisBlock = genesis.GetHash();
+     	hashGenesisBlock = genesis.GetHash();
         
-        assert(hashGenesisBlock == uint256("0x00000c05280ebeb2351fbf26d0c245d36fe80e8bd6349e80ce6c54663ed4630e"));
+        assert(hashGenesisBlock == uint256("0x00000e41ecbaa35ef91b0c2c22ed4d85fa12bbc87da2668fe17572695fb30cdf"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -146,16 +143,16 @@ public:
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 1);
         bnProofOfWorkLimit[ALGO_SCRYPT]  = CBigNum(~uint256(0) >> 1);
-        genesis.nTime = 1405750164;
+        genesis.nTime = 1405740500;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 5;
+        genesis.nNonce = 1;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 31047;
         strDataDir = "regtest";
         
-        hashGenesisBlock = genesis.GetHash();
-
-        assert(hashGenesisBlock == uint256("0x4d3009dd1971071eb35d70334d3d47b8a1cb3c04e1ae90d5a3037e24494428d6"));
+		hashGenesisBlock = genesis.GetHash();
+        
+        assert(hashGenesisBlock == uint256("0x69e9b79e220ea183dc2a52c825667e486bba65e2f64d237b578559ab60379181"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
 

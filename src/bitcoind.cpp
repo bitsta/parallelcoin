@@ -47,7 +47,7 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to parallelcoind / RPC client
-            std::string strUsage = _("ParallelCoin version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Parallelcoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
                   "  parallelcoind [options]                     " + "\n" +
                   "  parallelcoind [options] <command> [params]  " + _("Send command to -server or parallelcoind") + "\n" +

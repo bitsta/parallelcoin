@@ -34,7 +34,7 @@ const QString BITCOIN_IPC_PREFIX("parallelcoin:");
 //
 static QString ipcServerName()
 {
-    QString name("ParallelCoinQt");
+    QString name("ParallelcoinQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path

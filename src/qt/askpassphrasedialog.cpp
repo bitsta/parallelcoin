@@ -109,7 +109,7 @@ void AskPassphraseDialog::accept()
                 {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                                          "<qt>" +
-                                         tr("ParallelCoin will close now to finish the encryption process. "
+                                         tr("Parallelcoin will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
                                          "your parallelcoins from being stolen by malware infecting your computer.") +
                                          "<br><br><b>" +

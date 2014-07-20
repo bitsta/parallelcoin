@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2013 The Bitcoin developers
 // Copyright (c) 2013-2014 The Zetacoin developers
 // Copyright (c) 2014 The Huntercoin developers
-// Copyright (c) 2014 The ParallelCoin developers
+// Copyright (c) 2014 The Parallelcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -69,7 +69,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "ParallelCoin Signed Message:\n";
+const string strMessageMagic = "Parallelcoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -4654,7 +4654,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     uint256 hashBlock = pblock->GetHash();
 
     //// debug print
-    printf("ParallelCoinMiner:\n");
+    printf("ParallelcoinMiner:\n");
     printf("proof-of-work found\n  block-hash: %s\n  pow-hash: %s\n  target: %s\n", 
         hashBlock.GetHex().c_str(), 
         hashPoW.GetHex().c_str(), 
@@ -4666,7 +4666,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("ParallelCoinMiner : generated block is stale");
+            return error("ParallelcoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4680,7 +4680,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("ParallelCoinMiner : ProcessBlock, block not accepted");
+            return error("ParallelcoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
@@ -5068,7 +5068,7 @@ void static GenericMiner(CWallet *pwallet, int algo)
 
 void static ThreadBitcoinMiner(CWallet *pwallet)
 {
-    printf("ParallelCoin miner started\n");
+    printf("Parallelcoin miner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("bitcoin-miner");
     
@@ -5086,7 +5086,7 @@ void static ThreadBitcoinMiner(CWallet *pwallet)
     }
     catch (boost::thread_interrupted)
     {
-        printf("ParallelCoin miner terminated\n");
+        printf("Parallelcoin miner terminated\n");
         throw;
     }
 }

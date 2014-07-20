@@ -176,10 +176,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "Stop ParallelCoin server.");
+            "Stop Parallelcoin server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "ParallelCoin server stopping";
+    return "Parallelcoin server stopping";
 }
 
 Value makekeypair(const Array& params, bool fHelp)
@@ -513,7 +513,7 @@ bool HTTPAuthorized(map<string, string>& mapHeaders)
 }
 
 //
-// JSON-RPC protocol.  ParallelCoin speaks version 1.0 for maximum compatibility,
+// JSON-RPC protocol.  Parallelcoin speaks version 1.0 for maximum compatibility,
 // but uses JSON-RPC 1.1/2.0 standards for parts of the 1.0 standard that were
 // unspecified (HTTP errors and contents of 'error').
 //
@@ -777,7 +777,7 @@ void StartRPCThreads()
               "The username and password MUST NOT be the same.\n"
               "If the file does not exist, create it with owner-readable-only file permissions.\n"
               "It is also recommended to set alertnotify so you are notified of problems;\n"
-              "for example: alertnotify=echo %%s | mail -s \"ParallelCoin Alert\" admin@foo.com\n"),
+              "for example: alertnotify=echo %%s | mail -s \"Parallelcoin Alert\" admin@foo.com\n"),
                 strWhatAmI.c_str(),
                 GetConfigFile().string().c_str(),
                 EncodeBase58(&rand_pwd[0],&rand_pwd[0]+32).c_str()),

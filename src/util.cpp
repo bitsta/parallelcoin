@@ -1017,13 +1017,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\ParallelCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\ParallelCoin
-    // Mac: ~/Library/Application Support/ParallelCoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Parallelcoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Parallelcoin
+    // Mac: ~/Library/Application Support/Parallelcoin
     // Unix: ~/.parallelcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "ParallelCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Parallelcoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1035,7 +1035,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "ParallelCoin";
+    return pathRet / "Parallelcoin";
 #else
     // Unix
     return pathRet / ".parallelcoin";
@@ -1337,7 +1337,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong ParallelCoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Parallelcoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);
