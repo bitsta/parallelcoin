@@ -83,8 +83,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no aphoticcoin URI
-    if(!uri.isValid() || uri.scheme() != QString("aphoticcoin"))
+    // return if URI is not valid or is no parallelcoin URI
+    if(!uri.isValid() || uri.scheme() != QString("parallelcoin"))
         return false;
 
     SendCoinsRecipient rv;
@@ -135,13 +135,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert aphoticcoin:// to aphoticcoin:
+    // Convert parallelcoin:// to parallelcoin:
     //
-    //    Cannot handle this later, because aphoticcoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because parallelcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("aphoticcoin://"))
+    if(uri.startsWith("parallelcoin://"))
     {
-        uri.replace(0, 13, "aphoticcoin:");
+        uri.replace(0, 13, "parallelcoin:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -295,12 +295,12 @@ bool ToolTipToRichTextFilter::eventFilter(QObject *obj, QEvent *evt)
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "AphoticCoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "ParallelCoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for AphoticCoin.lnk
+    // check for ParallelCoin.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -377,7 +377,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "aphoticcoin.desktop";
+    return GetAutostartDir() / "parallelcoin.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -415,10 +415,10 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         boost::filesystem::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out|std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        // Write a aphoticcoin.desktop file to the autostart directory:
+        // Write a parallelcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=AphoticCoin\n";
+        optionFile << "Name=ParallelCoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -437,7 +437,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the aphoticcoin app
+    // loop through the list of startup items and try to find the parallelcoin app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, NULL);
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -471,7 +471,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
     if(fAutoStart && !foundItem) {
-        // add aphoticcoin app to startup item list
+        // add parallelcoin app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, NULL, NULL, bitcoinAppUrl, NULL, NULL);
     }
     else if(!fAutoStart && foundItem) {
@@ -490,10 +490,10 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("AphoticCoin-Qt") + " " + tr("version") + " " +
+    header = tr("ParallelCoin-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  aphoticcoin-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  parallelcoin-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage());
 
@@ -503,7 +503,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n" +
         "  -choosedatadir         " + tr("Choose data directory on startup (default: 0)") + "\n";
 
-    setWindowTitle(tr("AphoticCoin-Qt"));
+    setWindowTitle(tr("ParallelCoin-Qt"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));

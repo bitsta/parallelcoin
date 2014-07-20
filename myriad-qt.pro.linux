@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = aphoticcoin-qt
-macx:TARGET = "AphoticCoin-Qt"
+TARGET = parallelcoin-qt
+macx:TARGET = "ParallelCoin-Qt"
 VERSION = 0.8.2
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
@@ -318,7 +318,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = aphoticcoin-qt_test
+TARGET = parallelcoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }

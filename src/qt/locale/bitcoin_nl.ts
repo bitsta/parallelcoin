@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AphoticCoin</source>
-        <translation>Over AphoticCoin</translation>
+        <source>About ParallelCoin</source>
+        <translation>Over ParallelCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AphoticCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AphoticCoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;ParallelCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ParallelCoin&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+0"/>
-        <source>The AphoticCoin developers</source>
-        <translation>De AphoticCoin-ontwikkelaars</translation>
+        <source>The ParallelCoin developers</source>
+        <translation>De ParallelCoin-ontwikkelaars</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AphoticCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw AphoticCoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <source>These are your ParallelCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn uw ParallelCoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AphoticCoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald AphoticCoinadres bezit</translation>
+        <source>Sign a message to prove you own a ParallelCoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald ParallelCoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AphoticCoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde AphoticCoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify a message to ensure it was signed with a specified ParallelCoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde ParallelCoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AphoticCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw AphoticCoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw aphoticcoins verzendt.</translation>
+        <source>These are your ParallelCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw ParallelCoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw parallelcoins verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>AphoticCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aphoticcoins from being stolen by malware infecting your computer.</source>
-        <translation>AphoticCoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw aphoticcoins stelen.</translation>
+        <source>ParallelCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your parallelcoins from being stolen by malware infecting your computer.</source>
+        <translation>ParallelCoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw parallelcoins stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AphoticCoin</source>
-        <translation>Laat informatie zien over AphoticCoin</translation>
+        <source>Show information about ParallelCoin</source>
+        <translation>Laat informatie zien over ParallelCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AphoticCoin address</source>
-        <translation>Verstuur munten naar een AphoticCoinadres</translation>
+        <source>Send coins to a ParallelCoin address</source>
+        <translation>Verstuur munten naar een ParallelCoinadres</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AphoticCoin</source>
-        <translation>Wijzig instellingen van AphoticCoin</translation>
+        <source>Modify configuration options for ParallelCoin</source>
+        <translation>Wijzig instellingen van ParallelCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AphoticCoin</source>
-        <translation>AphoticCoin</translation>
+        <source>ParallelCoin</source>
+        <translation>ParallelCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AphoticCoin</source>
-        <translation>&amp;Over AphoticCoin</translation>
+        <source>&amp;About ParallelCoin</source>
+        <translation>&amp;Over ParallelCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AphoticCoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw AphoticCoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your ParallelCoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw ParallelCoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AphoticCoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde AphoticCoinadressen</translation>
+        <source>Verify messages to ensure they were signed with specified ParallelCoin addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde ParallelCoinadressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+47"/>
-        <source>AphoticCoin client</source>
-        <translation>AphoticCoin client</translation>
+        <source>ParallelCoin client</source>
+        <translation>ParallelCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AphoticCoin network</source>
-        <translation><numerusform>%n actieve connectie naar AphoticCoinnetwerk</numerusform><numerusform>%n actieve connecties naar AphoticCoinnetwerk</numerusform></translation>
+        <source>%n active connection(s) to ParallelCoin network</source>
+        <translation><numerusform>%n actieve connectie naar ParallelCoinnetwerk</numerusform><numerusform>%n actieve connecties naar ParallelCoinnetwerk</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het AphoticCoinnetwerk. Wilt u de transactiekosten betalen?</translation>
+        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het ParallelCoinnetwerk. Wilt u de transactiekosten betalen?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -656,8 +656,8 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AphoticCoin address or malformed URI parameters.</source>
-        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig AphoticCoinadres of misvormde URI-parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ParallelCoin address or malformed URI parameters.</source>
+        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig ParallelCoinadres of misvormde URI-parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AphoticCoin can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. AphoticCoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <source>A fatal error occurred. ParallelCoin can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. ParallelCoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AphoticCoin address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig AphoticCoinadres</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ParallelCoin address.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig ParallelCoinadres</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AphoticCoin-Qt</source>
-        <translation>AphoticCoin-Qt</translation>
+        <source>ParallelCoin-Qt</source>
+        <translation>ParallelCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AphoticCoin after logging in to the system.</source>
-        <translation>Start AphoticCoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start ParallelCoin after logging in to the system.</source>
+        <translation>Start ParallelCoin automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AphoticCoin on system login</source>
-        <translation>Start &amp;AphoticCoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start ParallelCoin on system login</source>
+        <translation>Start &amp;ParallelCoin bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AphoticCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de AphoticCoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the ParallelCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de ParallelCoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AphoticCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het AphoticCoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
+        <source>Connect to the ParallelCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbind met het ParallelCoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AphoticCoin.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat AphoticCoin herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ParallelCoin.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat ParallelCoin herstart wordt.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adres: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AphoticCoin addresses in the transaction list or not.</source>
-        <translation>Of AphoticCoinadressen getoond worden in de transactielijst</translation>
+        <source>Whether to show ParallelCoin addresses in the transaction list or not.</source>
+        <translation>Of ParallelCoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AphoticCoin.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van AphoticCoin.</translation>
+        <source>This setting will take effect after restarting ParallelCoin.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van ParallelCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AphoticCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het AphoticCoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ParallelCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het ParallelCoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start aphoticcoin: click-to-pay handler</source>
-        <translation>Kan aphoticcoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start parallelcoin: click-to-pay handler</source>
+        <translation>Kan parallelcoin niet starten: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AphoticCoin-Qt help message to get a list with possible AphoticCoin command-line options.</source>
-        <translation>Toon het AphoticCoinQt-hulpbericht voor een lijst met mogelijke AphoticCoin commandoregel-opties.</translation>
+        <source>Show the ParallelCoin-Qt help message to get a list with possible ParallelCoin command-line options.</source>
+        <translation>Toon het ParallelCoinQt-hulpbericht voor een lijst met mogelijke ParallelCoin commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>AphoticCoin - Debug window</source>
-        <translation>AphoticCoin-debugscherm</translation>
+        <source>ParallelCoin - Debug window</source>
+        <translation>ParallelCoin-debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AphoticCoin Core</source>
-        <translation>AphoticCoin Kern</translation>
+        <source>ParallelCoin Core</source>
+        <translation>ParallelCoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AphoticCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het AphoticCoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <source>Open the ParallelCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het ParallelCoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AphoticCoin RPC console.</source>
-        <translation>Welkom bij de AphoticCoin RPC-console.</translation>
+        <source>Welcome to the ParallelCoin RPC console.</source>
+        <translation>Welkom bij de ParallelCoin RPC-console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een AphoticCoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een ParallelCoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AphoticCoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald AphoticCoinadres bezit</translation>
+        <source>Sign the message to prove you own this ParallelCoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald ParallelCoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AphoticCoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde AphoticCoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified ParallelCoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde ParallelCoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een AphoticCoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een ParallelCoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AphoticCoin signature</source>
-        <translation>Voer AphoticCoin-handtekening in</translation>
+        <source>Enter ParallelCoin signature</source>
+        <translation>Voer ParallelCoin-handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The AphoticCoin developers</source>
-        <translation>De AphoticCoin-ontwikkelaars</translation>
+        <source>The ParallelCoin developers</source>
+        <translation>De ParallelCoin-ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AphoticCoin version</source>
-        <translation>AphoticCoinversie</translation>
+        <source>ParallelCoin version</source>
+        <translation>ParallelCoinversie</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or aphoticcoind</source>
-        <translation>Stuur commando naar -server of aphoticcoind</translation>
+        <source>Send command to -server or parallelcoind</source>
+        <translation>Stuur commando naar -server of parallelcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,14 +2217,14 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: aphoticcoin.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: aphoticcoin.conf)
+        <source>Specify configuration file (default: parallelcoin.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: parallelcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: aphoticcoind.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: aphoticcoind.pid)
+        <source>Specify pid file (default: parallelcoind.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: parallelcoind.pid)
 </translation>
     </message>
     <message>
@@ -2302,23 +2302,23 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=aphoticcoinrpc
+rpcuser=parallelcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=aphoticcoinrpc
+rpcuser=parallelcoinrpc
 rpcpassword=%s
 (u hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
 Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
 Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
-for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@foo.com</translation>
+for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2332,8 +2332,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AphoticCoin is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. AphoticCoin draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s. ParallelCoin is probably already running.</source>
+        <translation>Kan geen lock op de datamap %s verkrijgen. ParallelCoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AphoticCoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal AphoticCoin niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ParallelCoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal ParallelCoin niet correct werken.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AphoticCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de AphoticCoin wiki voor SSL-instructies)</translation>
+        <source>SSL options: (see the ParallelCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de ParallelCoin wiki voor SSL-instructies)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AphoticCoin</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van AphoticCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ParallelCoin</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van ParallelCoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AphoticCoin to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart AphoticCoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart ParallelCoin to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart ParallelCoin om te voltooien</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AphoticCoin is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. AphoticCoin draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to %s on this computer. ParallelCoin is probably already running.</source>
+        <translation>Niet in staat om aan %s te binden op deze computer. ParallelCoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+64"/>

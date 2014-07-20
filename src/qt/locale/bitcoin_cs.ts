@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AphoticCoin</source>
-        <translation>O AphoticCoinu</translation>
+        <source>About ParallelCoin</source>
+        <translation>O ParallelCoinu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AphoticCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AphoticCoin&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;ParallelCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ParallelCoin&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The AphoticCoin developers</source>
-        <translation>Vývojáři AphoticCoinu</translation>
+        <source>The ParallelCoin developers</source>
+        <translation>Vývojáři ParallelCoinu</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AphoticCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tohle jsou tvé AphoticCoinové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
+        <source>These are your ParallelCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tohle jsou tvé ParallelCoinové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AphoticCoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem AphoticCoinové adresy</translation>
+        <source>Sign a message to prove you own a ParallelCoin address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem ParallelCoinové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AphoticCoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou AphoticCoinovou adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified ParallelCoin address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou ParallelCoinovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AphoticCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé AphoticCoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your ParallelCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tohle jsou tvé ParallelCoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-56"/>
-        <source>AphoticCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aphoticcoins from being stolen by malware infecting your computer.</source>
-        <translation>AphoticCoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých aphoticcoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>ParallelCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your parallelcoins from being stolen by malware infecting your computer.</source>
+        <translation>ParallelCoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých parallelcoinů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AphoticCoin</source>
-        <translation>Zobraz informace o AphoticCoinu</translation>
+        <source>Show information about ParallelCoin</source>
+        <translation>Zobraz informace o ParallelCoinu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AphoticCoin address</source>
-        <translation>Pošli mince na AphoticCoinovou adresu</translation>
+        <source>Send coins to a ParallelCoin address</source>
+        <translation>Pošli mince na ParallelCoinovou adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AphoticCoin</source>
-        <translation>Uprav nastavení AphoticCoinu</translation>
+        <source>Modify configuration options for ParallelCoin</source>
+        <translation>Uprav nastavení ParallelCoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AphoticCoin</source>
-        <translation>AphoticCoin</translation>
+        <source>ParallelCoin</source>
+        <translation>ParallelCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AphoticCoin</source>
-        <translation>O &amp;AphoticCoinu</translation>
+        <source>&amp;About ParallelCoin</source>
+        <translation>O &amp;ParallelCoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AphoticCoin addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými AphoticCoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your ParallelCoin addresses to prove you own them</source>
+        <translation>Podepiš zprávy svými ParallelCoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AphoticCoin addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými AphoticCoinovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified ParallelCoin addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými ParallelCoinovými adresami</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+47"/>
-        <source>AphoticCoin client</source>
-        <translation>AphoticCoin klient</translation>
+        <source>ParallelCoin client</source>
+        <translation>ParallelCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AphoticCoin network</source>
-        <translation><numerusform>%n aktivní spojení do AphoticCoinové sítě</numerusform><numerusform>%n aktivní spojení do AphoticCoinové sítě</numerusform><numerusform>%n aktivních spojení do AphoticCoinové sítě</numerusform></translation>
+        <source>%n active connection(s) to ParallelCoin network</source>
+        <translation><numerusform>%n aktivní spojení do ParallelCoinové sítě</numerusform><numerusform>%n aktivní spojení do ParallelCoinové sítě</numerusform><numerusform>%n aktivních spojení do ParallelCoinové sítě</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresa: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AphoticCoin address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná AphoticCoinová adresa nebo poškozené parametry URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ParallelCoin address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná ParallelCoinová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AphoticCoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. AphoticCoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. ParallelCoin can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. ParallelCoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AphoticCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná AphoticCoinová adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ParallelCoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná ParallelCoinová adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresa: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AphoticCoin-Qt</source>
-        <translation>AphoticCoin-Qt</translation>
+        <source>ParallelCoin-Qt</source>
+        <translation>ParallelCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AphoticCoin after logging in to the system.</source>
-        <translation>Automaticky spustí AphoticCoin po přihlášení do systému.</translation>
+        <source>Automatically start ParallelCoin after logging in to the system.</source>
+        <translation>Automaticky spustí ParallelCoin po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AphoticCoin on system login</source>
-        <translation>S&amp;pustit AphoticCoin po přihlášení do systému</translation>
+        <source>&amp;Start ParallelCoin on system login</source>
+        <translation>S&amp;pustit ParallelCoin po přihlášení do systému</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,7 +844,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AphoticCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the ParallelCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AphoticCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připojí se do AphoticCoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
+        <source>Connect to the ParallelCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připojí se do ParallelCoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AphoticCoin.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování AphoticCoinu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ParallelCoin.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování ParallelCoinu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AphoticCoin addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat aphoticcoinové adresy ve výpisu transakcí nebo ne.</translation>
+        <source>Whether to show ParallelCoin addresses in the transaction list or not.</source>
+        <translation>Zda ukazovat parallelcoinové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresa: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AphoticCoin.</source>
-        <translation>Nastavení se projeví až po restartování AphoticCoinu.</translation>
+        <source>This setting will take effect after restarting ParallelCoin.</source>
+        <translation>Nastavení se projeví až po restartování ParallelCoinu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresa: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AphoticCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s AphoticCoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ParallelCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s ParallelCoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresa: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start aphoticcoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit aphoticcoin: obsluha click-to-pay</translation>
+        <source>Cannot start parallelcoin: click-to-pay handler</source>
+        <translation>Nemůžu spustit parallelcoin: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AphoticCoin-Qt help message to get a list with possible AphoticCoin command-line options.</source>
-        <translation>Seznam parametrů AphoticCoinu pro příkazovou řádku získáš v nápovědě AphoticCoinu Qt.</translation>
+        <source>Show the ParallelCoin-Qt help message to get a list with possible ParallelCoin command-line options.</source>
+        <translation>Seznam parametrů ParallelCoinu pro příkazovou řádku získáš v nápovědě ParallelCoinu Qt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresa: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>AphoticCoin - Debug window</source>
-        <translation>AphoticCoin - ladicí okno</translation>
+        <source>ParallelCoin - Debug window</source>
+        <translation>ParallelCoin - ladicí okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AphoticCoin Core</source>
-        <translation>Jádro AphoticCoinu</translation>
+        <source>ParallelCoin Core</source>
+        <translation>Jádro ParallelCoinu</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AphoticCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy AphoticCoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+        <source>Open the ParallelCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři soubor s ladicími záznamy ParallelCoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AphoticCoin RPC console.</source>
-        <translation>Vítej v AphoticCoinové RPC konzoli.</translation>
+        <source>Welcome to the ParallelCoin RPC console.</source>
+        <translation>Vítej v ParallelCoinové RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadej AphoticCoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadej ParallelCoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AphoticCoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této AphoticCoinové adresy</translation>
+        <source>Sign the message to prove you own this ParallelCoin address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této ParallelCoinové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AphoticCoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou AphoticCoinovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ParallelCoin address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou ParallelCoinovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresa: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadej AphoticCoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadej ParallelCoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AphoticCoin signature</source>
-        <translation>Vlož AphoticCoinový podpis</translation>
+        <source>Enter ParallelCoin signature</source>
+        <translation>Vlož ParallelCoinový podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresa: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The AphoticCoin developers</source>
-        <translation>Vývojáři AphoticCoinu</translation>
+        <source>The ParallelCoin developers</source>
+        <translation>Vývojáři ParallelCoinu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresa: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AphoticCoin version</source>
-        <translation>Verze AphoticCoinu</translation>
+        <source>ParallelCoin version</source>
+        <translation>Verze ParallelCoinu</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or aphoticcoind</source>
-        <translation>Poslat příkaz pro -server nebo aphoticcoind</translation>
+        <source>Send command to -server or parallelcoind</source>
+        <translation>Poslat příkaz pro -server nebo parallelcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: aphoticcoin.conf)</source>
-        <translation>Konfigurační soubor (výchozí: aphoticcoin.conf)</translation>
+        <source>Specify configuration file (default: parallelcoin.conf)</source>
+        <translation>Konfigurační soubor (výchozí: parallelcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: aphoticcoind.pid)</source>
-        <translation>PID soubor (výchozí: aphoticcoind.pid)</translation>
+        <source>Specify pid file (default: parallelcoind.pid)</source>
+        <translation>PID soubor (výchozí: parallelcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adresa: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=aphoticcoinrpc
+rpcuser=parallelcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=aphoticcoinrpc
+rpcuser=parallelcoinrpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 rpcuser a rpcpassword NESMÍ být stejné.
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
 Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@foo.com
+například: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ například: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AphoticCoin is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. AphoticCoin pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s. ParallelCoin is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. ParallelCoin pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ například: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AphoticCoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, AphoticCoin nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ParallelCoin will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, ParallelCoin nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ například: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AphoticCoin Wiki for SSL setup instructions)</source>
-        <translation>Možnosti SSL: (viz instrukce nastavení SSL v AphoticCoin Wiki)</translation>
+        <source>SSL options: (see the ParallelCoin Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL v ParallelCoin Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ například: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AphoticCoin</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi AphoticCoinu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ParallelCoin</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi ParallelCoinu</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AphoticCoin to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj AphoticCoin, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart ParallelCoin to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj ParallelCoin, aby se operace dokončila</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ například: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AphoticCoin is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. AphoticCoin už pravděpodobně jednou běží.</translation>
+        <source>Unable to bind to %s on this computer. ParallelCoin is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. ParallelCoin už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+64"/>

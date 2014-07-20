@@ -98,7 +98,7 @@ OBJS= \
     obj/scrypt.o \
     obj/scrypt-sse2.o
 
-all: aphoticcoind.exe
+all: parallelcoind.exe
 
 DEFS += -I"$(CURDIR)/leveldb/include"
 DEFS += -I"$(CURDIR)/leveldb/helpers"
@@ -116,7 +116,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(xCXXFLAGS) -fpermissive -o $@ $<
 
-aphoticcoind.exe: $(OBJS:obj/%=obj/%)
+parallelcoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -124,15 +124,15 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(xCXXFLAGS) -o $@ $<
 
-test_aphoticcoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/aphoticcoind.o,$(OBJS:obj/%=obj/%))
+test_parallelcoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/parallelcoind.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework-mt-s $(LIBS)
 
 
 clean:
 	-rm -f obj/*.o
-	-rm -f aphoticcoind.exe
+	-rm -f parallelcoind.exe
 	-rm -f obj-test/*.o
-	-rm -f test_aphoticcoin.exe
+	-rm -f test_parallelcoin.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..
 

@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AphoticCoin</source>
-        <translation>O AphoticCoin-u</translation>
+        <source>About ParallelCoin</source>
+        <translation>O ParallelCoin-u</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AphoticCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AphoticCoin&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;ParallelCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ParallelCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The AphoticCoin developers</source>
+        <source>The ParallelCoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AphoticCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ovo su vaše AphoticCoin adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
+        <source>These are your ParallelCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ovo su vaše ParallelCoin adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AphoticCoin address</source>
+        <source>Sign a message to prove you own a ParallelCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AphoticCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified ParallelCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AphoticCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your ParallelCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>AphoticCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aphoticcoins from being stolen by malware infecting your computer.</source>
-        <translation>AphoticCoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše aphoticcoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
+        <source>ParallelCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your parallelcoins from being stolen by malware infecting your computer.</source>
+        <translation>ParallelCoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše parallelcoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AphoticCoin</source>
-        <translation>Prikaži informacije o AphoticCoinu</translation>
+        <source>Show information about ParallelCoin</source>
+        <translation>Prikaži informacije o ParallelCoinu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AphoticCoin address</source>
-        <translation>Slanje novca na aphoticcoin adresu</translation>
+        <source>Send coins to a ParallelCoin address</source>
+        <translation>Slanje novca na parallelcoin adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AphoticCoin</source>
-        <translation>Promijeni postavke konfiguracije za aphoticcoin</translation>
+        <source>Modify configuration options for ParallelCoin</source>
+        <translation>Promijeni postavke konfiguracije za parallelcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AphoticCoin</source>
-        <translation>AphoticCoin</translation>
+        <source>ParallelCoin</source>
+        <translation>ParallelCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AphoticCoin</source>
-        <translation>&amp;O AphoticCoinu</translation>
+        <source>&amp;About ParallelCoin</source>
+        <translation>&amp;O ParallelCoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AphoticCoin addresses to prove you own them</source>
+        <source>Sign messages with your ParallelCoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AphoticCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified ParallelCoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>AphoticCoin client</source>
-        <translation>AphoticCoin klijent</translation>
+        <source>ParallelCoin client</source>
+        <translation>ParallelCoin klijent</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AphoticCoin network</source>
-        <translation><numerusform>%n aktivna veza na AphoticCoin mrežu</numerusform><numerusform>%n aktivne veze na AphoticCoin mrežu</numerusform><numerusform>%n aktivnih veza na AphoticCoin mrežu</numerusform></translation>
+        <source>%n active connection(s) to ParallelCoin network</source>
+        <translation><numerusform>%n aktivna veza na ParallelCoin mrežu</numerusform><numerusform>%n aktivne veze na ParallelCoin mrežu</numerusform><numerusform>%n aktivnih veza na ParallelCoin mrežu</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -651,7 +651,7 @@ Adresa:%4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AphoticCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid ParallelCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -666,7 +666,7 @@ Adresa:%4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AphoticCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. ParallelCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -732,8 +732,8 @@ Adresa:%4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AphoticCoin address.</source>
-        <translation>Upisana adresa &quot;%1&quot; nije valjana aphoticcoin adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ParallelCoin address.</source>
+        <translation>Upisana adresa &quot;%1&quot; nije valjana parallelcoin adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -751,7 +751,7 @@ Adresa:%4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AphoticCoin-Qt</source>
+        <source>ParallelCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -814,13 +814,13 @@ Adresa:%4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AphoticCoin after logging in to the system.</source>
-        <translation>Automatski pokreni AphoticCoin kad se uključi računalo</translation>
+        <source>Automatically start ParallelCoin after logging in to the system.</source>
+        <translation>Automatski pokreni ParallelCoin kad se uključi računalo</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AphoticCoin on system login</source>
-        <translation>&amp;Pokreni AphoticCoin kod pokretanja sustava</translation>
+        <source>&amp;Start ParallelCoin on system login</source>
+        <translation>&amp;Pokreni ParallelCoin kod pokretanja sustava</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -839,8 +839,8 @@ Adresa:%4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AphoticCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port AphoticCoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the ParallelCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port ParallelCoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -849,7 +849,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AphoticCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the ParallelCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Spojite se na Bitcon mrežu putem SOCKS proxy-a (npr. kod povezivanja kroz Tor)</translation>
     </message>
     <message>
@@ -924,7 +924,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AphoticCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting ParallelCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -935,11 +935,11 @@ Adresa:%4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio aphoticcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio parallelcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AphoticCoin addresses in the transaction list or not.</source>
+        <source>Whether to show ParallelCoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -991,7 +991,7 @@ Adresa:%4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AphoticCoin.</source>
+        <source>This setting will take effect after restarting ParallelCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1010,7 +1010,7 @@ Adresa:%4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AphoticCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ParallelCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1064,7 +1064,7 @@ Adresa:%4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start aphoticcoin: click-to-pay handler</source>
+        <source>Cannot start parallelcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1214,7 +1214,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AphoticCoin-Qt help message to get a list with possible AphoticCoin command-line options.</source>
+        <source>Show the ParallelCoin-Qt help message to get a list with possible ParallelCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1234,12 +1234,12 @@ Adresa:%4
     </message>
     <message>
         <location line="-104"/>
-        <source>AphoticCoin - Debug window</source>
+        <source>ParallelCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>AphoticCoin Core</source>
+        <source>ParallelCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1249,7 +1249,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AphoticCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the ParallelCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1259,7 +1259,7 @@ Adresa:%4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AphoticCoin RPC console.</source>
+        <source>Welcome to the ParallelCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1443,8 +1443,8 @@ Adresa:%4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Unesite AphoticCoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Unesite ParallelCoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1467,7 +1467,7 @@ Adresa:%4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Unesite AphoticCoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Unesite ParallelCoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1508,7 +1508,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AphoticCoin address</source>
+        <source>Sign the message to prove you own this ParallelCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1540,11 +1540,11 @@ Adresa:%4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Unesite AphoticCoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Unesite ParallelCoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AphoticCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified ParallelCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1560,8 +1560,8 @@ Adresa:%4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AphoticCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Unesite AphoticCoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a ParallelCoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Unesite ParallelCoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1570,7 +1570,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AphoticCoin signature</source>
+        <source>Enter ParallelCoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Adresa:%4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The AphoticCoin developers</source>
+        <source>The ParallelCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2182,8 +2182,8 @@ Adresa:%4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AphoticCoin version</source>
-        <translation>AphoticCoin verzija</translation>
+        <source>ParallelCoin version</source>
+        <translation>ParallelCoin verzija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2192,8 +2192,8 @@ Adresa:%4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or aphoticcoind</source>
-        <translation>Pošalji komandu usluzi -server ili aphoticcoind</translation>
+        <source>Send command to -server or parallelcoind</source>
+        <translation>Pošalji komandu usluzi -server ili parallelcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2212,13 +2212,13 @@ Adresa:%4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: aphoticcoin.conf)</source>
-        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: aphoticcoin.conf)</translation>
+        <source>Specify configuration file (default: parallelcoin.conf)</source>
+        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: parallelcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: aphoticcoind.pid)</source>
-        <translation>Odredi proces ID datoteku (ugrađeni izbor: aphoticcoin.pid)</translation>
+        <source>Specify pid file (default: parallelcoind.pid)</source>
+        <translation>Odredi proces ID datoteku (ugrađeni izbor: parallelcoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2295,13 +2295,13 @@ Adresa:%4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=aphoticcoinrpc
+rpcuser=parallelcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ParallelCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2317,7 +2317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AphoticCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. ParallelCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2362,8 +2362,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AphoticCoin will not work properly.</source>
-        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, AphoticCoin neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ParallelCoin will not work properly.</source>
+        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, ParallelCoin neće raditi ispravno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2612,8 +2612,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AphoticCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL postavke: (za detalje o podešavanju SSL opcija vidi AphoticCoin Wiki)</translation>
+        <source>SSL options: (see the ParallelCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL postavke: (za detalje o podešavanju SSL opcija vidi ParallelCoin Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2802,13 +2802,13 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AphoticCoin</source>
-        <translation>Greška kod učitavanja wallet.dat: Novčanik zahtjeva noviju verziju AphoticCoina</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ParallelCoin</source>
+        <translation>Greška kod učitavanja wallet.dat: Novčanik zahtjeva noviju verziju ParallelCoina</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AphoticCoin to complete</source>
-        <translation>Novčanik je trebao prepravak: ponovo pokrenite AphoticCoin</translation>
+        <source>Wallet needed to be rewritten: restart ParallelCoin to complete</source>
+        <translation>Novčanik je trebao prepravak: ponovo pokrenite ParallelCoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2867,8 +2867,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AphoticCoin Alert&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AphoticCoin is probably already running.</source>
-        <translation>Program ne može koristiti %s na ovom računalu.  AphoticCoin program je vjerojatno već pokrenut.</translation>
+        <source>Unable to bind to %s on this computer. ParallelCoin is probably already running.</source>
+        <translation>Program ne može koristiti %s na ovom računalu.  ParallelCoin program je vjerojatno već pokrenut.</translation>
     </message>
     <message>
         <location line="+64"/>

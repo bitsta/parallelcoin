@@ -35,7 +35,7 @@ bool AppInit(int argc, char* argv[])
         //
         // Parameters
         //
-        // If Qt is used, parameters/aphoticcoin.conf are parsed in qt/bitcoin.cpp's main()
+        // If Qt is used, parameters/parallelcoin.conf are parsed in qt/bitcoin.cpp's main()
         ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
@@ -46,13 +46,13 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to aphoticcoind / RPC client
-            std::string strUsage = _("AphoticCoin version") + " " + FormatFullVersion() + "\n\n" +
+            // First part of help message is specific to parallelcoind / RPC client
+            std::string strUsage = _("ParallelCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  aphoticcoind [options]                     " + "\n" +
-                  "  aphoticcoind [options] <command> [params]  " + _("Send command to -server or aphoticcoind") + "\n" +
-                  "  aphoticcoind [options] help                " + _("List commands") + "\n" +
-                  "  aphoticcoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  parallelcoind [options]                     " + "\n" +
+                  "  parallelcoind [options] <command> [params]  " + _("Send command to -server or parallelcoind") + "\n" +
+                  "  parallelcoind [options] help                " + _("List commands") + "\n" +
+                  "  parallelcoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -62,7 +62,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "aphoticcoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "parallelcoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
     bool fRet = false;
     fHaveGUI = false;
 
-    // Connect aphoticcoind signal handlers
+    // Connect parallelcoind signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);
