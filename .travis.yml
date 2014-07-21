@@ -22,5 +22,6 @@ notifications:
       - "chat.freenode.net#CoinWorks"
     template:
       - "%{repository}/%{branch} (%{commit} - %{author}): %{message}"
+      - "Alt Message : %{repository_slug} - (%{commit} - %{author}): %{message}, Build Time: %{duration}"
       - "Change view : %{compare_url}"
       - "Build details : %{build_url}"
