@@ -15,11 +15,12 @@ script:
  - qmake USE_UPNP=- 
  - make -j 5
  
+
 notifications:
   irc:
     channels:
       - "chat.freenode.net#CoinWorks"
     template:
-      - "%{repository_slug} - (%{commit} - %{author}): %{message}, Build Time: %{duration}"
+      - "%{repository}/%{branch} (%{commit} - %{author}): %{message}"
       - "Change view : %{compare_url}"
       - "Build details : %{build_url}"
