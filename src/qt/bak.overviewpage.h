@@ -34,7 +34,6 @@ public:
 
 public slots:
     void setBalance(qint64 balance, qint64 unconfirmedBalance, qint64 immatureBalance);
-    //void setBalance2(qint64 balance);
 
 signals:
     void transactionClicked(const QModelIndex &index);
