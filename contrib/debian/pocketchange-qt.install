@@ -1,0 +1,6 @@
+pocketchange-qt usr/bin
+share/pixmaps/pocketchange32.xpm usr/share/pixmaps
+share/pixmaps/pocketchange16.xpm usr/share/pixmaps
+share/pixmaps/pocketchange128.png usr/share/pixmaps
+debian/pocketchange-qt.desktop usr/share/applications
+debian/pocketchange-qt.protocol usr/share/kde4/services/

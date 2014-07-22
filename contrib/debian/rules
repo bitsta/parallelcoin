@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+#DEB_MAKE_CHECK_TARGET = test_pocketchange
+#build/pocketchanged::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_pocketchange)
+
+DEB_INSTALL_EXAMPLES_pocketchanged += debian/examples/*
+DEB_INSTALL_MANPAGES_pocketchanged += debian/manpages/*
+
+%:
+	dh --with bash-completion $@
+
+override_dh_auto_build:
+	cd src; $(MAKE) -f makefile.unix pocketchanged
+	$(MAKE)
+
+override_dh_auto_clean:
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f pocketchange-qt; fi
+	cd src; $(MAKE) -f makefile.unix clean
+
+override_dh_auto_configure:
+	qmake pocketchange-qt.pro USE_QRCODE=1
+
+override_dh_auto_test:
+	cd src; $(MAKE) -f makefile.unix test_pocketchange
+	src/test_pocketchange
+
+# Ensure wrapper is set executable
+binary-post-install/pocketchanged:
+	chmod +x $(cdbs_curdestdir)usr/bin/pocketchanged
+binary-post-install/pocketchange-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/pocketchange-qt
