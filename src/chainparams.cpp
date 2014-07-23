@@ -40,7 +40,7 @@ public:
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
   
-        const char* pszTimestamp = "2014-10-10 Hashers Unites Conference Begins in Las Vegas";
+        const char* pszTimestamp = "2014-10-10 Hashers United Conference Begins in Las Vegas";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -51,9 +51,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = BLOCK_VERSION_DEFAULT;
-        genesis.nTime    = 1393164995;
+        genesis.nTime    = 1406088612;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 855484362;
 
         //// debug print
         hashGenesisBlock = genesis.GetHash();
@@ -67,9 +67,8 @@ public:
         printf("%x\n", bnProofOfWorkLimit[ALGO_SHA256D].GetCompact());
         genesis.print();
 
-        //assert(hashGenesisBlock == uint256("0x00000d6d47fc21c24c7f793fe8f85cd034b5077ee2131fbd06ff7067710a7425"));
-        assert(genesis.hashMerkleRoot == uint256("0x2792e726897ff25b439bfab050357b08aeaec81910d5bb7f5d85badd9e0c07d7"));
-
+        assert(hashGenesisBlock == uint256("0x00000000a821e41e5e4f47694bd9931ca00003769a601b27b7ca7885ddd926d7"));
+        assert(genesis.hashMerkleRoot == uint256("0xb54b97b442c8127eaa27b07c645917acc42f95f00f623593295318b50a5f1151")
         vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 50;
