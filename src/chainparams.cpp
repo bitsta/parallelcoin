@@ -53,7 +53,7 @@ public:
         genesis.nVersion = BLOCK_VERSION_DEFAULT;
         genesis.nTime    = 1406088612;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 855484362;
+        genesis.nNonce   = 2603612;
 
         //// debug print
         hashGenesisBlock = genesis.GetHash();
@@ -67,8 +67,9 @@ public:
         printf("%x\n", bnProofOfWorkLimit[ALGO_SHA256D].GetCompact());
         genesis.print();
 
-        assert(hashGenesisBlock == uint256("0x00000000a821e41e5e4f47694bd9931ca00003769a601b27b7ca7885ddd926d7"));
-        assert(genesis.hashMerkleRoot == uint256("0xb54b97b442c8127eaa27b07c645917acc42f95f00f623593295318b50a5f1151")
+        assert(hashGenesisBlock == uint256("0x0000036e2938977c0eed0255278d083cd58b192bbeb7567e7f9fc0428d9ea4dc"));
+        assert(genesis.hashMerkleRoot == uint256("0x587a1add784ab06de0f8af00fc4f1dd5d40cae61909df5b88345b2f978e5682c"));
+
         vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 50;
@@ -133,7 +134,7 @@ public:
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         genesis.print();
         
-        //assert(hashGenesisBlock == uint256("0x0"));
+        assert(hashGenesisBlock == uint256("0x0000046783ab5288748cef46e4efeae33cb442a1cf6522aca89f59ba5001a8da"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
