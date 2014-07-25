@@ -288,8 +288,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/txdb.cpp \
     src/qt/splashscreen.cpp \
     src/qt/intro.cpp \
-    src/scrypt.cpp \
-    src/scrypt-sse2.cpp
+    src/scrypt.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
 
