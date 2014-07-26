@@ -30,8 +30,8 @@ public:
         vAlertPubKey = ParseHex("04fe8a17065a19b88f150305dda9ad209acb6bbe9b07cfaa36bcb383630b5b6f4c406a03acd0d77e2cbc4e9093c327c4f41df01c5791458066da7c1c337d0d15d3");
         nDefaultPort = 11047;
         nRPCPort = 11048;
-        bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 20);
-        bnProofOfWorkLimit[ALGO_SCRYPT]  = CBigNum(~uint256(0) >> 20);
+        bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 80);
+        bnProofOfWorkLimit[ALGO_SCRYPT]  = CBigNum(~uint256(0) >> 80);
         nSubsidyHalvingInterval = 250000;
   
         const char* pszTimestamp = "NYTimes 2014-07-19 - Dell Begins Accepting Bitcoin";
